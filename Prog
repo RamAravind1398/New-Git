@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int a,b,c,d;
 printf("Enter the value of a: ");
 scanf("%d\n",&a);
 printf("Enter the value of b: ");
 scanf("%d\n",&b);
 c = a+b;
-printf("Addition of values of a and b is %d",c);
+printf("Addition of values of a and b is %d\n",c);
+d = a-b;
+printf("Subtraction of values of a and b is %d",d);
 return 0;
 }
