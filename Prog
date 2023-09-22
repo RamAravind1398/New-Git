@@ -2,6 +2,7 @@
 int main()
 {
 int a,b,c,e;
+Printf("Welcome to basic mathematic operation");
 printf("Enter the value of a: ");
 scanf("%d\n",&a);
 printf("Enter the value of b: ");
