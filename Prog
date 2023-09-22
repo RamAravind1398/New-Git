@@ -1,14 +1,27 @@
 #include<stdio.h>
 int main()
 {
+<<<<<<< HEAD
 int a,b,c,d;
+=======
+int a,b,c,e,f;
+>>>>>>> feature
 printf("Enter the value of a: ");
 scanf("%d\n",&a);
 printf("Enter the value of b: ");
 scanf("%d\n",&b);
 c = a+b;
+<<<<<<< HEAD
 printf("Addition of values of a and b is %d\n",c);
 d = a-b;
 printf("Subtraction of values of a and b is %d",d);
+=======
+printf("Addition of values of a and b is %d",c);
+e = a*b;
+printf("Multiplication of values of a and b is %d\n",e);
+f = a/b;
+printf("Division of values of a and b is %d\n",f);
+>>>>>>> feature
 return 0;
+
 }
